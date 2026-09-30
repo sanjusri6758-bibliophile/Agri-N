@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircle for maskable & any -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Subtle satellite orbit ring -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#34d399" stroke-width="6" stroke-dasharray="14 10" opacity="0.35" />
+  
+  <!-- Soil horizon curves -->
+  <path d="M 64 360 Q 160 330 256 360 T 448 350 L 448 420 Q 340 440 256 420 T 64 420 Z" fill="#065f46" opacity="0.6" />
+  
+  <!-- Glowing Sun / Satellite node -->
+  <circle cx="340" cy="160" r="36" fill="url(#sunGrad)" />
+  
+  <!-- Sprout / Wheat stalk icon -->
+  <path d="M 256 380 L 256 220" stroke="#a7f3d0" stroke-width="14" stroke-linecap="round" />
+  <!-- Left leaf -->
+  <path d="M 256 280 C 200 270 170 210 180 180 C 210 180 250 230 256 280 Z" fill="url(#leafGrad)" />
+  <!-- Right leaf -->
+  <path d="M 256 240 C 310 230 340 170 330 140 C 300 140 260 190 256 240 Z" fill="#6ee7b7" />
+  
+  <!-- Radar signal arches (representing weather & satellite telemetry) -->
+  <path d="M 120 180 A 60 60 0 0 1 180 120" fill="none" stroke="#67e8f9" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+  <path d="M 100 180 A 85 85 0 0 1 185 95" fill="none" stroke="#67e8f9" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 6" opacity="0.5" />
+</svg>

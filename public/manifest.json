@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "AgriN — Regenerative Agricultural Intelligence Network",
+  "short_name": "AgriN",
+  "description": "Offline-ready digital agriculture network delivering real-time localized agro-advisories, satellite vegetation maps, and thunderstorm warnings for farmers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#15803d",
+  "background_color": "#0c0a09",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
